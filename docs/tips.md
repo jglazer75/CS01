@@ -1,14 +1,14 @@
-# Tips
+# Some Tips on Negotiating
 
 *\* This material was developed by Google Gemini Pro 2.5 on June 19, 2025*
 
-## **On the Sociology of the Founding Team (Founder Archetypes)
+## On the Sociology of the Founding Team (Founder Archetypes)
 
 This is about understanding your starting position—the unique strengths and weaknesses your origin story gives you in the eyes of an investor. Investors pattern-match. Knowing their perception of your "archetype" allows you to pre-empt their concerns and lean into your strengths.
 
 Your background isn't just a story; it's a set of assumptions that investors will bring to the table. Your job is to understand those assumptions and use them to your advantage.
 
-Here are the three common archetypes you mentioned and their negotiation dynamics:
+Here are three common archetypes that may help you understand negotiation dynamics from different viewpoints:
 
 ### 1\. The First-Time Entrepreneur (e.g., The PhD or Engineer with a Breakthrough)
 
