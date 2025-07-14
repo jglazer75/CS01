@@ -7,7 +7,7 @@
 | Founder motivations and entity formation | Identify personal and professional factors that motivate founders when working from within|
 | Intial capitalization and sweat equity | Analyze an initial capitalization table, the implications of equity splits, vesting schedules, and impact of later investment on founder equity|
 
-[IP]: Intellectual Property
+*[IP]: Intellectual Property
 
 ## PARTIES
 
