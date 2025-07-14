@@ -2,3 +2,4 @@
 theme: jekyll-theme-minimal
 title: "NewCo Term Sheet Negotiation: A Case Study"
 description: "An interactive case study on venture finance, IP licensing, and negotiation for law students and tech entrepreneurs."
+markdown: kramdown
