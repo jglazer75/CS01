@@ -1,11 +1,11 @@
 # The Negotiation
 
-[Part 1 - Markup the Term Sheet](#pt1-mup-term-sheet)\\
-[Key Concept: BATNA](#batna)\\
-[Part 1 - Classroom Instructions](#pt1-instructions)\\
-[Part 2 - Face Off](#pt2-face-off)\\
-[Part 2 - Classroom Instructions](#pt2-instructions)\\
-[Part 3 - Review](#pt3-review)\\
+[Part 1 - Markup the Term Sheet](#pt1-mup-term-sheet) \\
+[Key Concept: BATNA](#batna) \\
+[Part 1 - Classroom Instructions](#pt1-instructions) \\
+[Part 2 - Face Off](#pt2-face-off) \\
+[Part 2 - Classroom Instructions](#pt2-instructions) \\
+[Part 3 - Review](#pt3-review) \\
 
 ## Part 1 - Markup the Term Sheet {#pt1-mup-term-sheet}
 
