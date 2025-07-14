@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Node dependencies
+node_modules/
+
+# Build folders
+dist/
+build/
