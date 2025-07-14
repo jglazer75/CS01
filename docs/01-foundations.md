@@ -3,7 +3,7 @@
 | Learning Concepts | Learning Objectives |
 | ------ | -------- |
 |Corporate Spin-offs and Technology Transfer | Explain the business and university policy justifications for internal project commercialization |
-| [IP] assignment in employment | Identify the different ways in which employers have rights over employee-created [IP]|
+| IP assignment in employment | Identify the different ways in which employers have rights over employee-created IP|
 | Founder motivations and entity formation | Identify personal and professional factors that motivate founders when working from within|
 | Intial capitalization and sweat equity | Analyze an initial capitalization table, the implications of equity splits, vesting schedules, and impact of later investment on founder equity|
 
