@@ -3,12 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.keyconcept h2 {
+.keyconcept {
     color: #C5050C; 
     filter: drop-shadow(8px 8px 10px gray);
-}
-
-.keyconcept {
-    outline: 4px dashed #C5050C;
-    outline-offset: 4px;
 }
