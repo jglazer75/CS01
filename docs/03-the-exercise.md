@@ -35,9 +35,11 @@ NewCo, of course, would like the best deal possible for their fledgling company.
 ## Key Concept: BATNA {#batna}
 {:.keyconcept}
 
-A key part of negotiating is understanding your leverage and the leverage of the other party. One very important factor in leverage is understanding what each party's alternatives are. There are always alternatives, even if they aren't very good. 
+A key part of negotiating is understanding your leverage and the leverage of the other party. One very important factor in leverage is understanding what each party's alternatives are. There are always alternatives, even if they aren't very good.
+{:.keyconcept}
 
 Every negotiation has two potential results:  it works, or it doesn't. Of course, the final negotiated result may look very different from where the parties started, but sometimes there is no common ground to be found. In this case, both parties go home without a deal and need to then turn to their Best Alternative to a Negotiated Agreement ("BATNA").
+{:.keyconcept}
 
 *[BATNA]: Best Alternative to a Negotiated Agreement
 
