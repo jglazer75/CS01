@@ -1,7 +1,7 @@
 # The Negotiation
 
 * this unordered seed list will be replaced by toc as unordered list
-  {:toc}
+{:toc}
 
 [Part 1 - Markup the Term Sheet](#pt1-mup-term-sheet) \\
 [Key Concept: BATNA](#batna) \\
