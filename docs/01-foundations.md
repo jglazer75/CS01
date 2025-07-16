@@ -1,4 +1,8 @@
 # Module 1: Foundations – The Setup & The Stakes
+{:.no_toc}
+
+* this unordered seed list will be replaced by toc as unordered list
+{:toc}
 
 | Learning Concepts | Learning Objectives |
 | ------ | -------- |
@@ -16,6 +20,24 @@
 As part of BigTech's investment portfolio it allocates approximately 15% of the total portfolio to high-risk venture capital investments made either in its own name or as part of a venture or angel investment group. Startups that arise through their own research are included in the 15% high risk allocation. BigTech's Board of Directors is intrigued by the return on investment potential of this high-risk portfolio but is always worried about shareholder reactions to this portion of the company's operations. Able is the Director of the BigTech Venture Group.
 
 **NewCo Tech Company, Inc. ("NewCo")** is a startup located in Madison, Wisconsin. NewCo was founded by Baker and Carter, both ex-employees of BigTech. Baker is an electrical engineer, with a Ph.D. from the University of Wisconsin ("UW") and worked on new hardware projects at BigTech. Carter is also a graduate of the UW with a degree in software engineering. He worked on firmware and operating system architecture at BigTech. As part of BigTech's research and development team they created a new software-based routing system that will make streaming on the internet significantly faster. While the technology works in conjunction with BigTech's hardware, the system will actually work with any hardware. BigTech thought this technology would actually have a bigger impact if it were spun-off into its own company where it could work with BigTech and its competitors. In January of 2017, BigTech gave Baker and Carter a substantial severance package and permission to start NewCo.
+
+## Key Concept: Corporate Venture Capital {#cvc}
+{:.keyconcept}
+
+Large corporations often set up their own venture capital funds (creatively called: "corporate venture capital", or "CVC"). They do so largely for two reasons: strategic fit and financial gain. Some companies prioritize one over the other, but all have internal policies related to how much each they will invest in. Portfolio companies that are a "strategic fit" are ones that will improve or expand the company's current product/service offerings or operations. Other investments are made purely because the fund manager sees an opportunity to make venture capital returns (i.e., 10x at a minimum).
+
+Universities have similar programs, but have very different goals. University Technology Transfer offices are most often concerned with commercializing technology that was built on-campus. This technology is often funded with federal grants, thus subject to the [Bayh-Dole Act](https://research.wisc.edu/bayhdole/). In other cases, the University may have a contract with its Principal Investigators ("PI"s) that assigns any intellectual property developed at the school to the school. See the KeyConcept below on [Employee Inventions](#employee-inventions). In these cases, the goal is find a commercialization partner for the technology and license the technology to the partner; sometimes the partner is a large corporation, sometimes it is a new venture started by the PI and/or the assistants and researchers that helped to develop the technology. Universities may _also_ have a venture capital group that invests for many of the same reasons as CVCs: to support faculty entrepreneurship/commercialization, or purely for financial gain.
+
+*[CVC]: Corporate Venture Capital
+*[PI]: Principal Investigators - usually Professors or specialized researchers at a University
+*[license]: a contractual right to use something, in this case intellectual property; it is _not_ a transfer of ownership.
+
+### Resources
+{:.keyconcept}
+
+Harvard Business Review has [a 2003 explainer on CVC](https://hbr.org/2002/03/making-sense-of-corporate-venture-capital).
+
+You can read more about [Technology Transfer and CVC](https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/loi/14676486/year/2008) (paywall) - Markman, Siegel, et al. _Research and Technology Commercialization_. Journal of Management Studies. Vol 45, Iss. 8. (December 2008).
 
 ## FACTS
 
@@ -36,4 +58,28 @@ Baker and Carter will forego salaries until NewCo is generating revenue; Baker w
 
 The core technology of NETWORKFUNCTION was created at BigTech. Based on the employment contracts of Baker and Carter and intellectual property law, anything the two created at BigTech is the property of BigTech. BigTech has filed two patents and is claiming copyright over the core functionality that is NETWORKFUNCTION. The first patent covers the firmware implementation of the system ("P294"), the second patent covers the cloud architecture necessary for the system ("P573"), the copyright covers the software necessary for the system to operate ("C483;" together, all are "Core IP").
 
-### [Proceed to Module 2: The Deal](./02-the-deal.md)
+## Key Concept: Employee Inventions {#employee-inventions}
+{:.keyconcept}
+
+Generally, companies own the intellectual property created by their employees in the course of their employment. However, the legal mechanism for ownership differs depending on the type of IP. 
+
+* **Copyright**: Under the "work made for hire" doctrine, if a work is created by an employee within the scope of their employment, the employer is legally considered the author and owner of the copyright from the moment of creation. No assignment is needed. This is why BigTech automatically owns the copyright to the `NETWORKFUNCTION` software (`C483`) created by Baker and Carter.
+
+* **Patent**: The default rule for patents is different. The inventor(s) are the initial owners, even if they are employees. To secure ownership, companies almost universally require employees to sign an employment agreement containing an "invention assignment" clause. This clause contractually obligates the employee to assign ownership of any inventions created during their employment to the company. Without such an agreement, the company might only have a "shop right"—a non-exclusive, royalty-free license to use the invention, while the employee retains ownership.
+
+* **Trademark**: Trademark rights are established through use in commerce. The entity that uses a mark (e.g., a brand name or logo) to identify its goods or services is the trademark owner. If an employee creates a logo as part of their job (a copyrightable work owned by employer as a work-for-hire), the employer who then _uses_ that logo on its products is the owner.
+
+* **Trade Secret**: If an employee creates a trade secret (e.g., a confidential formula or process) within the scope of their employment, using company resources, the employer is considered the owner of the trade secret. This is almost always reinforced by an NDA signed by the employee.
+
+*[IP]: Intellectual Property
+*[assignment]: a contractual change of ownership, in this case of intellectual property
+*[NDA]: Non-Disclosure Agreement, sometimes called Confidentiality Agreement
+
+## Resources
+{:.keyconcept}
+
+Harvard Business Review has [a 2003 explainer on CVC](https://hbr.org/2002/03/making-sense-of-corporate-venture-capital).
+
+You can read more about [Technology Transfer and CVC](https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/loi/14676486/year/2008) (paywall) - Markman, Siegel, et al. _Research and Technology Commercialization_. Journal of Management Studies. Vol 45, Iss. 8. (December 2008).
+
+**[Proceed to Module 2: The Deal](./02-the-deal.md)**

@@ -15,3 +15,7 @@ node_modules/
 # Build folders
 dist/
 build/
+docs/GEMFILE.lock
+docs/GEMFILE
+docs/_site/
+docs/.jekyll_cache
