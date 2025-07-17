@@ -19,3 +19,7 @@ docs/GEMFILE.lock
 docs/GEMFILE
 docs/_site/
 docs/.jekyll_cache
+
+# Dev Environment
+.vscode/
+CS01.code-workspace
