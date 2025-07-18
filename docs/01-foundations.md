@@ -82,4 +82,4 @@ Harvard Business Review has [a 2003 explainer on CVC](https://hbr.org/2002/03/ma
 
 You can read more about [Technology Transfer and CVC](https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/loi/14676486/year/2008) (paywall) - Markman, Siegel, et al. _Research and Technology Commercialization_. Journal of Management Studies. Vol 45, Iss. 8. (December 2008).
 
-**[Proceed to Module 2: The Deal](./02-the-deal.md)**
+**[Proceed to Module 2: The Deal -->](./02-the-deal.md)**

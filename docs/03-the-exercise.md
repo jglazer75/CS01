@@ -87,3 +87,5 @@ Consider:
 * BATNA: What was your BATNA? What was your Reservation Point? What did you feel the other side's BATNA and/or Reservation Point was?
 
 * What changes would you make next time? What were the factors that led to the result? Did you feel you were able to communicate your goals and objectives clearly? Do you feel the result matches your goals and objectives for the negotiation?
+
+**[<-- Back to Module 2: The Deal](./02-the-deal.md)**
