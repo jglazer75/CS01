@@ -75,11 +75,19 @@ Generally, companies own the intellectual property created by their employees in
 *[assignment]: a contractual change of ownership, in this case of intellectual property
 *[NDA]: Non-Disclosure Agreement, sometimes called Confidentiality Agreement
 
-## Resources
+### IP-Related Contracts
 {:.keyconcept}
 
-Harvard Business Review has [a 2003 explainer on CVC](https://hbr.org/2002/03/making-sense-of-corporate-venture-capital).
+**Non-compete Agreements** are restraints on trade that prohibit employees and former employees from working for competitors or in similar industries. The justification for such restraints is often based on IP considerations.
 
-You can read more about [Technology Transfer and CVC](https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/loi/14676486/year/2008) (paywall) - Markman, Siegel, et al. _Research and Technology Commercialization_. Journal of Management Studies. Vol 45, Iss. 8. (December 2008).
+While many states permit non-competes in theory, there are states that outright prohibit them for non-Officer/founder/owner positions. In California, indeed [even non-California employers seeking to restrain California (ex-)employees are prohibited from enforcing their non-compete](https://www.purduegloballawschool.edu/blog/news/california-noncompete-agreement-ban).
+
+Still others may restrict them from certain classes of employees such as line cook workers at a sub sandwich shop. For example, [the state of Illinois prevents non-competes for any employee that makes less than $75,000 - $90,000 per year](https://www.foxrothschild.com/publications/the-future-of-restrictive-covenants-in-illinois). 
+
+[The University of Chicago's "Innovation Policy and the Economy" has a recent (2012) article on the impact of non-competes.](https://www.journals.uchicago.edu/doi/full/10.1086/663155). The authors find that non-competes by and large hurt small businesses (including startups), but help large businesses. They propose that policymakers should weigh which they support more and adopt a non-compete policy that supports their interest.
+
+**Non-Disclosure Agreements** (aka Confidentiality Agreements) compel one or both parties from disclosing information learned in the course of a relationship. The relationship could be employment, but it might also be a business deal such as a merger, manufacturing, or development agreement.
+
+IP Assignment and Licensing Agreements require that one person *assign* ownership of their IP to the other party. Often these are signed at the start of an employment relationship and convey ownership of patents specifically. A *license* on the other hand gives a party the right to use IP, but does not transfer ownership.
 
 **[Proceed to Module 2: The Deal -->](./02-the-deal.md)**

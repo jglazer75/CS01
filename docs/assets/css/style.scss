@@ -3,7 +3,52 @@
 
 @import "{{ site.theme }}";
 
+/* Define Color Palette */
+
+:root { 
+    --sage: #ccc9a1;
+    --nyanza: #f0ffce;
+    --nyanza-bg: rgb(240, 255, 206, .7);
+    --chestnut: #a53f2b;
+    --seal_brown: #4c230a; 
+    --black_bean: #280004; 
+}
+
+/* Page Setup for Desktop and Larger Screens */
+
+body {
+    background-color: var(--nyanza-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:var(--seal-brown);
+}
+
+a {
+  color: var(--chestnut);
+}
+
+a:hover, a:focus {
+  color: var(--black_bean);
+}
+
+.wrapper {
+    width: 1060px;
+}
+
+header {
+    background-color: var(--sage);
+    padding: 7px;
+    filter: drop-shadow(8px 8px 10px var(--sage));
+
+}
+
+section {
+    width: 700px;
+}
+
+
 .keyconcept {
-    color: #C5050C; 
-    filter: drop-shadow(8px 8px 10px gray);
+    color: var(--chestnut); 
+    filter: drop-shadow(8px 8px 10px var(--seal_brown));
 }
