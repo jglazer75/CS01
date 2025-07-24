@@ -15,7 +15,7 @@ This is the start of a multi-year relationship. An overly aggressive negotiation
 ### Key Concept: Economics + Control
 {:.keyconcept}
 
-Every term sheet boils down to two things:
+Every term sheet boils down to two things and every provision of the term sheet can be lumped into one of these two categories. They are typically at tension with one another, you can't get control without money; or, stated differently, more control costs more money. Founders should make sure they understand both the economics of the round, but also any red lines that they might have related to control.
 
 * **Economics:** Who makes how much money and when?  
 * **Control:** Who gets to make what decisions?
@@ -25,7 +25,7 @@ Every term sheet boils down to two things:
 ## Leverage
 
 **Competition**
-Try to have more than 1 investor at the table. Your greatest source of leverage is a competitive process; having more than one investor at the table changes the entire dynamic. Similarly, don't be desperate. Be our raising money *before* you are out of money.
+Try to have more than 1 investor at the table. Your greatest source of leverage is a competitive process; having more than one investor at the table changes the entire dynamic. Similarly, don't be desperate. Be out raising money *before* you are out of money.
 
 **Traction**
 Show progress. Tell stories of actual customer discovery (customers are people who pay you that are not related to you), pilot programs, LOIs, key hires, IP filings. A successful pilot with a municipal or industrial partner is gold. People often put too much pressure here; ANY user is a user; sure paying users are BETTER, but any user (that isn't related to you) is traction.
@@ -98,9 +98,11 @@ Terms specific to convertible notes:
 {:.keyconcept}
 
 **Valuation Cap:** The maximum valuation at which the investor's money converts to equity. You want this to be higher; the investor wants it lower.  
+
 * *Example:* $1M SAFE with a $10M cap. If the next round is at $20M, the SAFE holder converts at the $10M price, effectively doubling their ownership stake compared to new investors.
 
 **Discount Rate:** A discount the investor gets on the price of the next round. Typically 15-20%.
+
 * *Example:* Next round is priced at $1.00/share. A 20% discount means the SAFE holder converts at $0.80/share.
 
 **Other Concepts:**
@@ -108,9 +110,11 @@ Terms specific to convertible notes:
 **Pre/Post-Money:** Are you using a "Pre-Money" or "Post-Money" SAFE? Post-money SAFEs are investor-friendly and have become more common. They can be significantly more dilutive to founders. Understand the math\!  
 
 **MFN:** The holder of an MFN instrument always gets the most favorable negotiated deal in the round.
+
 * *Example:* Investor A has MFN; Investor B negotiates a 5% discount rate; Investor C negotiates a 20% discount rate. Investor A (all other things equal) will get Investor C's 20% discount rate.
 
 **Convertible Note:** is debt\!\!  
+
 * **Interest Rate:** A small interest rate (2-8%) that accrues and is added to the principal that converts to equity.
 * **Maturity Date:** A date (typically 18-24 months) by which, if a priced round hasn't occurred, the note is due.
 
@@ -118,82 +122,72 @@ Terms specific to convertible notes:
 
 ---
 
-## **Priced Rounds (Series Seed)**
+## Priced Rounds (Series Seed)
 
-* **Economics**  
-  * Pre-Money Valuation  
-  * Investment Amount  
-  * Option Pool  
-  * Liquidation Preferences  
-  * Anti-Dilution (tag along/drag along/ROFR)  
-* **Control**  
-  * Board Seats/Composition  
-  * Veto Rights  
-  * Voting Rights
+Even if you raise on a SAFE or other convertible interest for the purpose of punting on a valuation, it will eventually convert into this structure, so you need to understand it.
 
-**Notes:**
+### Economics
 
-* Even if you raise on a SAFE, it will convert into this structure, so you need to understand it.  
-* Valuation isn't everything.  
-* **Key Economic Terms (The Money):**  
-  * Pre-Money Valuation  
-  * Investment Amount  
-  * **Option Pool:** The option pool (for future employees) is almost always created before the investment, reducing the founder's effective valuation. *Example:* An investor agrees to a $10M "pre-money" valuation but requires a 20% option pool. The pool is created from the existing equity, so the true pre-money valuation of the company is now $8M.  
-  * **Liquidation Preference:** The most important economic term after price.  
-    * **Standard/Fair:** 1x, Non-Participating. Investor gets the first money out in a sale—either their investment back OR their ownership percentage, whichever is greater.  
-    * **Avoid:** Participating Preferred. The investor gets their money back AND their ownership percentage. This is a form of double-dipping and is no longer market standard for early rounds.  
-  * Anti-Dilution Rights  
-* **Key Control Terms (The Decisions):**  
-  * **Board of Directors:** Control often starts here. A typical 3-person seed stage board: 1 Founder Seat, 1 Investor Seat, 1 Independent Seat (mutually agreed upon). Avoid giving up control of the board (e.g., a 2-1 investor-founder ratio).  
-  * **Protective Provisions:** A list of major corporate actions that require investor approval (a "veto right"). Standard: Selling the company, changing the articles of incorporation, issuing senior stock, taking on significant debt.  
-  * **Red Flag:** Vetoes over operational decisions like hiring/firing executives, annual budgets, or pivoting the business.  
-  * Other Voting Rights
+* Pre-Money Valuation \+ Amount Raised in Round = Post-Money Valuation
+* Option Pool: The option pool (for future employees) is almost always created before the first major investment, reducing the founder's effective valuation. *Example:* An investor agrees to a $10M "pre-money" valuation but requires a 20% option pool. The pool is created from the existing equity, so the true pre-money valuation of the company is now $8M. You can do the mental gymnastics to figure out why this is true.
+* Liquidation Preferences  
+  * *Modern Standard:* 1x, Non-Participating. Investor gets the first money out in a sale—either their investment back OR their ownership percentage, whichever is greater.  
+  * *No Longer Standard:* Participating Preferred. The investor gets their money back AND their ownership percentage. This is a form of double-dipping and is no longer market standard for early rounds.  
+* Anti-Dilution (fully-diluted/tag along/drag along/ROFR)  
 
-## **Water Tech Considerations**
+### KeyConcept: Anti-Dilution
+{:.keyconcept}
 
-* Time \+ Money  
-* Intellectual Property  
-* Regulatory (EPA/Great Lakes/etc)  
-* Mission-Aligned
+**Anti-dilution** is a surprisingly difficult concept to implement. Let's break down what's really going on when an investor asks for "anti-dilution" provisions. First, what the investor is really asking is that as you are raising money their ownership percentage won't change. So, if the investor owns 10% of the company (for sake of easy math, let's just assume Investor A owns 10,000 shares of 100,000 total outstanding shares), when more money comes in, Investor A will continue to own 10% of the company. But, what does this really mean?
 
-**Notes:**
+**Example**. Founder puts $90,000 in to ABC, Co. for \$1/share. The next day Investor A puts in $10,000 for \$1/share \+ "anti-dilution" protection. Quick-review: Pre-Money Valuation (\$90,000) \+ Amount Raised in Round (\$10,000) = Post-Money Valuation (\$100,000). Therefore, *Investor's A ownership percentage = 10% (\$10,000/\$100,000)*. The next week, Investor B comes along and wants to put in \$20,000 for \$1/share. So, again, post-money valuation will equal \$120,000.
 
-* **Longer Timelines & Capital Intensity:** Your R\&D and sales cycles can be long. Raise enough capital to hit meaningful milestones. A 24-month runway is safer than 18\.  
-* **Intellectual Property (IP):** Be prepared for intense due diligence on your patents and proprietary technology. Ensure your IP is cleanly owned by the corporation, not a founder or university.  
-* **Regulatory Hurdles (e.g., EPA approvals):** Investors will price this risk. Having a clear, credible plan for navigating the regulatory landscape is a major asset and de-risks the investment.  
-* **Mission-Aligned Capital:** The "impact" investor universe is a real asset for you. Seek out investors who understand the water space and share your long-term vision. They can be more patient and provide more relevant strategic value.
+The cap-table now looks like: Founder (90k shares) = 75%; Investor A (10k shares) = 8.33%; Investor B (20k shares) = 16.67%. But Investor A has "anti-dilution" percentage and needs to be brought up to 10%, but none of the valuations change. To get Investor A up to 10% ABC Co must issue new shares. ABC Co must give Investor A another 2,204 shares to account for the anti-dilution requirement. Here's the math:
 
-## **Red Flags and Warnings**
+120k / (1.00-(.1 - .0833)) *or* \\
+120,000 total shares / .9833 = 122,038 total shares outstanding \\
+122,038 \* 10% = 2,203.8 \\
+round up to avoid fractional shares = 2,204 additional shares.
 
-* Exploding Term Sheets/Unreasonable Deadlines  
-* Valuation Cap/Pre-Money Focus  
-* Dilution Math  
-* GET A LAWYER THAT KNOWS WHAT THEY ARE DOING\!
+New, New capt-table: Founder: 73.77%; Investor A: 10.00%; Investor B: 16.39% (this totals 100.16 because I rounded to the nearest 100th)
 
-**Notes:**
+**TAX NOTE:** ABC, Co will "grant" these 2,204 shares to Investor A; since Investor A isn't paying for these shares, the grant  *also* creates taxable income for Investor A in the amount of $2,204 (at $1/share)
 
-* **The "Exploding" Term Sheet:** Unreasonable deadlines (e.g., "sign in 48 hours") are a pressure tactic. A professional investor will give you time.  
-* **Focusing only on the Valuation Cap / Pre-Money.** A high valuation with bad terms (like participating preferred or losing board control) is a bad deal.  
-* **Not getting experienced legal counsel.** This is not the place to save money. An experienced startup lawyer has seen hundreds of these deals and knows what's market standard. They pay for themselves many times over.  
-* **Not understanding dilution from future rounds, SAFEs, and the option pool.** Model it out in a spreadsheet\! (better yet, use CARTA\!\!\!)
+The usual ways around this are for the company NOT to grant more shares to Investor A, but rather provide rights that allow the Investor to maintain their ownership percentage such tag-along rights or rights of first refusal.
 
-## **Timeline of a Deal**
+*[tag-along]: may participate in future round on same terms as the round
+*[rights of first refusal]: get first right to participate in the next round on same terms as the round
 
-1. Introduction/Pitch/Relationship Building  
-2. Term Sheet Signed  
-3. Due Diligence  
-4. Document Drafting  
-5. Closing  
+### Control
+
+* **Board Seats**: Control often starts here. A typical 3-person seed stage board: 1 Founder Seat, 1 Investor Seat, 1 Independent Seat (mutually agreed upon). In many cases, the company might have 2 founders instead of an independent seat until the Board is expanded to 5 a little later in the company's corporate existence. A *Board Observer* is someone that is permitted to attend Board meetings and receives Board updates and documents, but does not have a formal vote on Board decisions.
+* **Veto Rights**: Investors may demand a list of major corporate actions that require investor approval (a "veto right"). These might include major corporate decisions such as: selling the company, changing the articles of incorporation, issuing senior stock, and taking on significant debt. It would be unusual (and thus scrutinized heavily before agreeing) for vetoes over operational decisions like hiring or firing executives, annual budgets, or pivoting the business.
+* **Voting Rights**: Can take many forms, but most frequently might look like *Super-voting Rights* (each share is worth more than 1 vote) or *Non-voting Rights* (shares do not carry voting rights)
+
+---
+
+## Technology-Specific Considerations
+
+**Time \+ Money:** For some technologies (e.g., pharma) startup costs can be particularly high because of high equipment/lab costs (BioTech), tooling costs (HardTech/AgTech), service costs (AI), or build-out costs (AgriTourism/Food&Bev). For others, development timelines (Pharma) or sales timelines (EdTech/GovTech) can be particularly long. The impacts of these marginal costs need to be known and accounted-for from the very beginning. For high-costs, this means rounds will be bigger to fund higher burn-rates; for long timelines this means rounds need to fund longer runways.
+
+**Intellectual Property:** All industries have IP. Some are strongly patent protected (pharma, hardtech), others are strongly copyright protected (software, services). In others trade secrets are incredibly important (food). All have trademark issues. Investors want to know that the company's founders understand what IP the company owns and have a coherent and comprensive strategy for acquiring and leveraging it.
+
+**Regulatory:** Some industries have high regulatory hurdles. As an easy and obvious example, drugs and medical devices need FDA approval which can take years to get through multiple rounds of human and non-human trials. Good investors will understand and price this risk. Having a clear, credible plan for navigating the regulatory landscape and a team that has gone through it before de-risks the investment.
+
+**Mission-Aligned:** The "impact" investor universe can be challenging. The good news is that the right investor is often looking for the right solution for reasons that are not strictly financial. The bad news is finding that fit can be hard and very time consuming. Seek out investors who understand the problem *and* the technology *and* share your long-term vision. While these investors can be more patient and provide more relevant strategic value, there are far fewer of them and they get a lot of deals to look at.
+
+*[burn-rate]: Cash In - Cash Out per month
+*[runway]: how long a given round of cash will last
+*[IP]: Intellectual Property
+
+## Timeline of a Deal
+
+1. Introduction/Pitch/Relationship Building: Think in *ROUNDS*, not *DEALS*
+2. Term Sheet Signed: Term sheets are mostly non-binding, but they create moral commitment. Exclusivity ("no-shop") and confidentiality clauses are usually binding.
+3. Due Diligence: The investor's lawyers and analysts will verify everything. Financials, technology, legal structure, customer contracts, etc. Be organized\!
+4. Document Drafting: The term sheet is expanded into lengthy, binding legal contracts. A lawyer should handle the heavy lifting.
+5. Closing: You sign a mountain of paperwork.
 6. ???  
 7. Profit (cash that check, yo\!)
-
-**Notes:**
-
-* **Intro:** Think in ROUNDS, not DEALS  
-* **Term Sheet Signed:** Mostly non-binding, but creates moral commitment. Exclusivity ("no-shop") and confidentiality clauses are usually binding.  
-* **Due Diligence (2-4 weeks):** The investor's lawyers and analysts will verify everything. Financials, technology, legal structure, customer contracts, etc. Be organized\!  
-* **Drafting Definitive Documents:** The term sheet is expanded into lengthy, binding legal contracts. Your lawyer will handle this heavy lifting.  
-* **Closing:** You sign a mountain of paperwork.  
-* **The Wire Hits:** The investment funds are wired to your company's bank account. Congratulations, now the real work begins.
 
 **[<-- Back to Module 2: The Deal](./02-the-deal.md)**
