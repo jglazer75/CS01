@@ -180,6 +180,8 @@ The usual ways around this are for the company NOT to grant more shares to Inves
 *[runway]: how long a given round of cash will last
 *[IP]: Intellectual Property
 
+---
+
 ## Timeline of a Deal
 
 1. Introduction/Pitch/Relationship Building: Think in *ROUNDS*, not *DEALS*
