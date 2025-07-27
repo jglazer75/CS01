@@ -20,3 +20,5 @@ For NewCo: "How does the final agreement impact your ability to raise the next r
 
 
 For BigTech: "Does this agreement meet the strategic goals of your venture group and address the Board of Directors' concerns?" 
+
+AI Model to assist, guide, and demonstrate negotiation strategies and tactics described.
