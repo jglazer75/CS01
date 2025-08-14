@@ -17,20 +17,25 @@ We are also told Baker and Carter each put in $50,000 worth of cash and assets: 
 
 ## Pro Forma Financial Statements
 
-There are three documents that comprise the Pro Forma Financial Statements: the Cash Flow Statement, the Profit & Loss Statement ("P&L"), and the Balance Sheet. These documents flow into each other. The Cash Flow leads into the P&L which leads into the Balance Sheet. How so? The cash flow statement literally shows what categories were cash in and cash out for the time period. That flow of cash is the presented in more detail in the P&L which breaks cash flow in and out into more granular details represented by the accounting categories for double-entry bookeeping. Then for the period, these cash assets and depreciation and appreciation are all set up as assets versus liabilities plus equity on the balance sheet (which "balances" because assets = liabilities + equity).
+There are three documents that comprise the Pro Forma Financial Statements: the Cash Flow Statement, the Profit & Loss Statement ("P&L"), and the Balance Sheet. These documents flow into each other. The Cash Flow leads into the P&L which leads into the Balance Sheet. How so? The cash flow statement literally shows what categories were cash in and cash out for the time period. That flow of cash is then presented in more detail in the P&L which breaks cash flow in and out into more granular details represented by the accounting legders for double-entry bookeeping. Each ledger (e.g., "wages", "utilities", "goods sold", etc.) is categorized as an "Asset," a "Liability," or as "Equity." These Assets, Liabilities, and Equity are then set up in the Balance Sheet where Assets = Liabilities + Equity.
 
-### Cash FLow Statement
+### Cash Flow Statement
 
+A cash flow statement summarizes the movement of cash and cash equivalents that come in and go out of a company. It is used to assess a company's ability to generate cash to pay its debts, fund its operations, and make investments. By presenting a clear picture of how cash is being used, the statement provides crucial insights into a company's liquidity, solvency, and overall financial health.
 
 ### P&L
 
+A profit and loss (P&L) statement, also known as an income statement, summarizes a company's revenues, costs, and expenses over a specific period, such as a quarter or a fiscal year. Its primary purpose is to show a company's profitability by detailing whether it made or lost money during that time. Stakeholders use the P&L statement to assess a company's financial performance, identify trends, and make informed decisions about its future.
 
 ### Balance Sheet
 
+A balance sheet provides a snapshot of a company's financial health at a specific point in time, presenting what it owns (assets), what it owes (liabilities), and the owners' stake (equity). It is governed by the fundamental accounting equation: Assets = Liabilities + Equity. Stakeholders use the balance sheet to assess a company's liquidity, capital structure, and overall solvency.
+
+For high-growth startups, key balance sheet ratios focus on liquidity and capital structure. The current ratio (current assets / current liabilities) is crucial for assessing the company's runway and ability to cover short-term obligations. Additionally, the debt-to-equity ratio (total liabilities / shareholders' equity) is scrutinized by investors to understand the startup's reliance on borrowed funds versus equity financing. These metrics provide a critical view of a startup's financial stability and its capacity to fund aggressive growth.
 
 ### Sources and Uses of Funds
 
-When raising money from outside the organization, it's fair to argue for a fourth: the Sources and Uses of Funds Statement. The sources and uses of funds does exactly what it says - it says this where the money is going to come from (e.g., SAFE + Preferred + Convertible + Loan) and then sets out the uses of those funds (e.g., 4 engineers + 1 marketing director).
+When raising money from outside the organization, it's fair to argue for a fourth: the Sources and Uses of Funds Statement. The sources and uses of funds does exactly what it says - it says this where the money is going to come from (e.g., SAFE + Preferred + Convertible + Loan) and then sets out the uses of those funds (e.g., 4 engineers + 1 marketing director). It should, of course, do so in a much more specific format indicating how much is raised as a source under each type and the timing of those raises, then should include the timing and amount of those payments. In this case, I would probably include the amount either proposed or actually raised and then a yearly run of how much will be spent (i.e., $100k per year). Since it isn't a use of funds to compensate with equity that designation would not be appropriate on this document, but would be found in a fully-diluted captable in addition to vesting schedules attached to a restricted stock agreement.
 
 *[P&L]: Profit & Loss Statement
 
