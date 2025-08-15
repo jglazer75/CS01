@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+/* @import "breakpoint/"; */
 
 /* Define Color Palette */
 
@@ -51,4 +52,65 @@ section {
 .keyconcept {
     color: var(--chestnut); 
     filter: drop-shadow(8px 8px 10px var(--seal_brown));
+}
+
+/* Navigation 
+
+
+$small: 320px !default;
+$medium: 768px !default;
+$large: 1024px !default;
+$xlarge: 1280px !default;
+
+#menu-toggle {
+  display: block;
+  margin: 0;
+  padding: 0.25em 0.75em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    display: none;
+  }
+}
+  &.js-menu-is-open {
+    display: block;
+    -webkit-animation-name: initial;
+    animation-name: initial;
+  }
+*/
+
+$nav-background-color: #000 !default;
+$border-radius: 0.25rem !default;
+
+.site-nav {
+  /* display: none; */
+  margin-bottom: 1em;
+  text-align: center;
+  display: block;
+  width: 400px;
+  float: right;
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0.25em 0.75em;
+    list-style: none;
+    border-radius: 0 0 (2 * $border-radius) (2 * $border-radius);   
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+
+  a {
+    display: block;
+    padding: 0.5em 0.75em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: $border-radius;
+  }
 }
