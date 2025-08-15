@@ -33,9 +33,25 @@ A balance sheet provides a snapshot of a company's financial health at a specifi
 
 For high-growth startups, key balance sheet ratios focus on liquidity and capital structure. The current ratio (current assets / current liabilities) is crucial for assessing the company's runway and ability to cover short-term obligations. Additionally, the debt-to-equity ratio (total liabilities / shareholders' equity) is scrutinized by investors to understand the startup's reliance on borrowed funds versus equity financing. These metrics provide a critical view of a startup's financial stability and its capacity to fund aggressive growth.
 
+### Key Concepts: Pro Forma Financial Statements
+{:.keyconcept}
+
+While the documents themselves are standard, what is included in them needs to be specific to your company and situation. For example, see [Carta's Summary of Financial Statements](https://carta.com/learn/startups/financial-statements/). They point out: Your startup may use other metrics to track success or benchmark against competitors. Here are some examples of additional elements you might want to include in your pro forma financial statements: **Key performance indicators (KPIs)**: This can include customer satisfaction ratings, profit margin, customer acquisition cost, number of customers, or website traffic. **Churn**: Account for customer turnover in your pro forma to get ahead of investor questions. **Ratio analysis**: This helps assess your company’s profitability, liquidity, financial leverage, and operation efficiency. **Comparative analysis**: You can evaluate your relative performance and identify areas of competitive advantage or weakness by comparing your company’s financial ratios or key performance metrics with industry averages or top competitors."
+
+* [EY's Manual on Pro Formas (pdf)](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-sec21724-231us-11-30-2023.pdf) is probably a little more technical than you're looking for.
+* [Netsuite's Summary of Financial Statements](https://www.netsuite.com/portal/resource/articles/financial-management/pro-forma-financial-statements.shtml) includes some examples so you can see what they look like.
+
+## Projected Financial Statements
+
+When preparing to raise funds, investors will want to see projected financials. Typically this includes, at a minimum, a project P&L and a Sources and Uses of Funds statement.
+
+### P&L, pt 2
+
+Projected P&L statements are often projected monthly for 6-12 months post-raise, and summary for years 2 and 3. While you may often see 5-year projections, frankly anything beyond 3 years is extremely speculative. The P&L should demonstrate how you envision revenue growth for the company and should clearly show which expenses are funding that growth. Moreover, they need to be realistic based on your ask during fundraising. You might also include options for underselling or overselling the round.
+
 ### Sources and Uses of Funds
 
-When raising money from outside the organization, it's fair to argue for a fourth: the Sources and Uses of Funds Statement. The sources and uses of funds does exactly what it says - it says this where the money is going to come from (e.g., SAFE + Preferred + Convertible + Loan) and then sets out the uses of those funds (e.g., 4 engineers + 1 marketing director). It should, of course, do so in a much more specific format indicating how much is raised as a source under each type and the timing of those raises, then should include the timing and amount of those payments. In this case, I would probably include the amount either proposed or actually raised and then a yearly run of how much will be spent (i.e., $100k per year). Since it isn't a use of funds to compensate with equity that designation would not be appropriate on this document, but would be found in a fully-diluted captable in addition to vesting schedules attached to a restricted stock agreement.
+The Sources and Uses of Funds statement does exactly what it says - it says this where the money is going to come from (e.g., SAFE + Preferred + Convertible + Loan) and then sets out the uses of those funds (e.g., 4 engineers + 1 marketing director). It should, of course, do so in a much more specific format indicating how much is raised as a source under each type and the timing of those raises, then should include the timing and amount of those payments. In this case, I would probably include the amount either proposed or actually raised and then a yearly run of how much will be spent (i.e., $100k per year). Since it isn't a use of funds to compensate with equity that designation would not be appropriate on this document, but would be found in a fully-diluted captable in addition to vesting schedules attached to a restricted stock agreement.
 
 *[P&L]: Profit & Loss Statement
 
