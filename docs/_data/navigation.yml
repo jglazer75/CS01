@@ -1,0 +1,9 @@
+# /_data/navigation.yml
+
+main:
+  - title: "Module 1 - Foundations"
+    url: /01-foundations.html
+  - title: "Module 2 - The Deal"
+    url: /02-the-deal.html
+  - title: "Module 3 - The Exercise"
+    url: /03-the-exercise.html
