@@ -12,6 +12,12 @@ Missing Elements & Opportunities for Enhancement:
 
     Personal Motivations: The founders chose to move back to Madison for family reasons. This personal factor could influence their risk tolerance and desire for control. Explicitly stating these motivations adds a realistic human element to the negotiation.
 
+Task: Renumber Modules:
+1. Foundations
+2. The Deal
+3. Startup Finances
+4. Negotiation Exercise
+
 Post-Negotiation Debrief and Reflection: The exercise currently concludes after the negotiation. A crucial part of experiential learning is reflection. Adding a structured debriefing section would solidify the learning. This section could include prompts such as:
 
 For both teams: "What were the key turning points in the negotiation? What strategy did the other side use that was most effective?"

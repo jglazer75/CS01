@@ -53,6 +53,21 @@ Projected P&L statements are often projected monthly for 6-12 months post-raise,
 
 The Sources and Uses of Funds statement does exactly what it says - it says this where the money is going to come from (e.g., SAFE + Preferred + Convertible + Loan) and then sets out the uses of those funds (e.g., 4 engineers + 1 marketing director). It should, of course, do so in a much more specific format indicating how much is raised as a source under each type and the timing of those raises, then should include the timing and amount of those payments. In this case, I would probably include the amount either proposed or actually raised and then a yearly run of how much will be spent (i.e., $100k per year). Since it isn't a use of funds to compensate with equity that designation would not be appropriate on this document, but would be found in a fully-diluted captable in addition to vesting schedules attached to a restricted stock agreement.
 
+## Competitive Analysis
+
+The classic text for performing a competitive analysis is [Michael Porter's Competitive Strategy](https://www.hbs.edu/faculty/Pages/item.aspx?num=195). It outlines four basic/generic approaches to competition: [Cost Leadership, Differentiation, Cost Focus, and Differentiation Focus](https://www.ifm.eng.cam.ac.uk/research/dstools/porters-generic-competitive-strategies/). Together these form the basic framework for looking out at how the customer is solving your problem and evaluating those solutions against yours. This competitve analysis then forms a very important part of how you talk about your company when talking to others, including in pitches. Basically, you want to identify what the others do well and poorly. But, importantly, within that landscape, what do you that is unique to the customer's problem that makes you uniquely valuable. Or, stated differently, what is *your* **value proposition**?
+
+### Resources: Competitive Analysis
+{:.keyconcept}
+
+There are a lot of great resources about competitive analysis. In addition to the book/links above, the following can get you pointed in the right direction:
+
+* [Asana: How to Create a Competitive Analysis](https://asana.com/resources/competitive-analysis-example)
+* [Carnegie Mellon Schwartz Center for Entrepreneurship (pdf)](https://www.cmu.edu/swartz-center-for-entrepreneurship/assets/Olympus%20pdfs/Competitive%20Analysis.pdf)
+* [Cambridge University Decision Support Tools](https://www.ifm.eng.cam.ac.uk/research/dstools/porters-generic-competitive-strategies/)
+
 *[P&L]: Profit & Loss Statement
+
+**[Proceed to Module 1b: Pitch Exercise -->](./01b-pitch-exercise.md)**
 
 **[Proceed to Module 2: The Deal -->](./02-the-deal.md)**
