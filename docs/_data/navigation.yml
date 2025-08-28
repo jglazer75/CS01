@@ -5,17 +5,14 @@
     url: /index.html
   - title: Module 1 - Foundations
     url: /01-foundations.html
-  - title: Module 1a - Startup Finances
-    url: /01a-startup-finances.html
-  - title: Module 1b - Pitch Exercise
-    url: /01b-pitch-exercise.html
-  - title: Module 2
-    url: /01a-startup-finances.html
   - title: Module 2 - The Deal
     url: /02-the-deal.html
   - title: Module 2a - Negotiating Term Sheets
     url: /02-Negotiating-term-sheets.html
   - title: Module 3 - The Exercise
     url: /03-the-exercise.html
-  - title: Module 3a - Bigtech Confidential
-    url: /03-bigtech-confidential.html
+  - title: Module 4 - Pro Formas & Projections
+    url: /04-financials.html
+  - title: Module 5 - Pitch Competition
+    url: /05-pitch-competition.html
+  

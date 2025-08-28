@@ -17,6 +17,8 @@ Please work through the modules in order to understand the facts, analyze the de
 * [Module 1: Foundations – The Setup & The Stakes](./01-foundations.md)  
 * [Module 2: The Deal – Deconstructing the Term Sheet](./02-the-deal.md)  
 * [Module 3: The Exercise – The Negotiation](./03-the-exercise.md)
+* [Module 4: Financials - Pro Forma and Proejctions](./04-financials.md)
+* [Module 5: Pitch Competition](./05-pitch-competition.md)
 
 You may find it helpful to review some [tips](./tips.md) on negotiation skills and tactics.
 
