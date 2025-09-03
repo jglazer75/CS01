@@ -2,123 +2,169 @@
 ---
 
 @import "{{ site.theme }}";
-/* @import "breakpoint/"; */
 
-/* Define Color Palette */
+/* Custom Styles */
 
-:root { 
-    --sage: #ccc9a1;
-    --nyanza: #f0ffce;
-    --nyanza-bg: rgb(240, 255, 206, .7);
-    --chestnut: #a53f2b;
-    --seal_brown: #4c230a; 
-    --black_bean: #280004; 
+#markdown-toc {
+  display: none;
 }
 
-/* variables */
-$nav-background-color: #000 !default;
-$border-radius: 0.25rem !default;
-
-/* Page Setup for Desktop and Larger Screens */
+html, body {
+  height: 100%;
+}
 
 body {
-    background-color: var(--nyanza-bg);
+  display: flex;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:var(--seal-brown);
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
 }
 
-a {
-  color: var(--chestnut);
+.header-footer {
+  margin-top: auto;
+  font-size: 12px;
+  color: #666;
 }
 
-a:hover, a:focus {
-  color: var(--black_bean);
-}
-
-.wrapper {
-    width: 1000px;
-}
-
-header {
-  background-color: var(--sage);
-  filter: drop-shadow(4px 4px 5px var(--sage));
-  padding: 7px;
-  border: 1px solid var(--chestnut);
-  border-radius: $border-radius;
+main {
+  margin-left: 220px;
+  flex-grow: 1;
+  display: flex;
 }
 
 section {
-    width: 700px;
+  flex-grow: 1;
+  padding: 20px;
 }
 
+.site-nav {
+  margin-top: 20px;
+}
+
+.site-nav a {
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover {
+  color: #007bff;
+}
+
+.on-this-page {
+  width: 220px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-left: 1px solid #ddd;
+}
+
+.on-this-page h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.on-this-page ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.on-this-page li {
+  margin-bottom: 10px;
+}
+
+.on-this-page a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.on-this-page a:hover {
+  color: #007bff;
+}
 
 .keyconcept {
-    color: var(--chestnut); 
-    filter: drop-shadow(3px 3px 6px var(--seal_brown));
+  background-color: #eef7ff;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  margin: 20px 0;
 }
 
-/* Navigation 
+.keyconcept h3 {
+  margin-top: 0;
+  color: #007bff;
+}
 
+.menu-button {
+  display: none;
+}
 
-$small: 320px !default;
-$medium: 768px !default;
-$large: 1024px !default;
-$xlarge: 1280px !default;
-
-#menu-toggle {
-  display: block;
-  margin: 0;
-  padding: 0.25em 0.75em 0.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-
-  @include breakpoint($medium) {
+@media (max-width: 1200px) {
+  .on-this-page {
     display: none;
   }
 }
-  &.js-menu-is-open {
-    display: block;
-    -webkit-animation-name: initial;
-    animation-name: initial;
-  }
-*/
 
-.site-nav {
-  /* display: none; */
-  background-color: var(--sage);
-  filter: drop-shadow(4px 4px 5px var(--sage));
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-align: center;
-  display: block;
-  width: 284px;
-  /* float: right; */
-  position: fixed;
-  right: 0;
-
-  ul div {
-    display: block;
-    margin: 0;
-    padding: 0.25em 0.75em;
-    list-style: none;
-    border-radius: 0 0 (2 * $border-radius) (2 * $border-radius);   
+@media (max-width: 768px) {
+  html, body {
+    height: auto;
   }
 
-  li span{
-    display: inline-block;
-    font-size: 0.75rem;
+  body {
+    display: block;
   }
 
-  a {
+  .header {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-footer {
+    display: none;
+  }
+
+  main {
+    margin-left: 0;
+  }
+
+  .menu-button {
     display: block;
-    padding: 0.5em 0.75em;
-    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 24px;
     text-decoration: none;
-    font-weight: bold;
-    border: 1px solid;
-    border-radius: $border-radius;
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .site-nav.is-open {
+    display: block;
   }
 }

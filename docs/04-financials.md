@@ -1,4 +1,4 @@
-# Module 1a: Startup Finances
+# Module 4: Startup Finances
 {:.no_toc}
 
 * this unordered seed list will be replaced by toc as unordered list
@@ -67,7 +67,3 @@ There are a lot of great resources about competitive analysis. In addition to th
 * [Cambridge University Decision Support Tools](https://www.ifm.eng.cam.ac.uk/research/dstools/porters-generic-competitive-strategies/)
 
 *[P&L]: Profit & Loss Statement
-
-**[Proceed to Module 1b: Pitch Exercise -->](./01b-pitch-exercise.md)**
-
-**[Proceed to Module 2: The Deal -->](./02-the-deal.md)**

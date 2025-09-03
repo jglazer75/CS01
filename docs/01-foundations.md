@@ -89,7 +89,3 @@ Still others may restrict them from certain classes of employees such as line co
 **Non-Disclosure Agreements** (aka Confidentiality Agreements) compel one or both parties from disclosing information learned in the course of a relationship. The relationship could be employment, but it might also be a business deal such as a merger, manufacturing, or development agreement.
 
 IP Assignment and Licensing Agreements require that one person *assign* ownership of their IP to the other party. Often these are signed at the start of an employment relationship and convey ownership of patents specifically. A *license* on the other hand gives a party the right to use IP, but does not transfer ownership.
-
-**[Proceed to Module 1a: Startup Finances -->](./01a-startup-finances.md)**
-
-**[Proceed to Module 2: The Deal -->](./02-the-deal.md)**

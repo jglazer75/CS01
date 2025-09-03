@@ -192,4 +192,3 @@ The usual ways around this are for the company NOT to grant more shares to Inves
 6. ???  
 7. Profit (cash that check, yo\!)
 
-**[<-- Back to Module 2: The Deal](./02-the-deal.md)**

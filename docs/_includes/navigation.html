@@ -1,11 +1,8 @@
-{% if site.data.navigation %}
-  <div class="navigation-wrapper">
-    <nav id="primary-nav" class="site-nav animated drop">
-      <div>
-        {% for link in site.data.navigation %}
-          <span><a href={{ link.url }}>{{ link.title }}</a></span>
-        {% endfor %}
-      </div>
-    </nav>
-  </div>
-{% endif %}
+<div class="navigation-wrapper">
+  <a href="#" class="menu-button">&#9776;</a>
+  <nav class="site-nav">
+    {% for link in site.data.navigation %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+  </nav>
+</div>

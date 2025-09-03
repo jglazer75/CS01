@@ -8,7 +8,7 @@
 
 After securing the IP and other concessions from BigTech in exchange for equity in NewCo, Baker and Carter interviewed and hired Delia to be the CEO of NewCo. Delia was given 20% equity as part of her compensation package. Each of the three of them need to make at least $60,000 per year for the forseeable future for their services (luckily they each have spouses with health insurance, so the company will not need to sponsor a health insurance package); they have agreed to forego cash compensation until the first funding round is closed. Each of them have also been moved to a vesting schedule; they will vest over the next four years with a 1-year cliff. NewCo has also established a qualified employee stock option pool comprising 15% of fully diluted equity.
 
-As you may recall from Module 1, the initial $50,000 in cash and equipment should be sufficient to get them one year of runway. Of course, that was 3 months ago now, so they have 9 months of runway remaining.
+As you may recall from Module 1, the initial $100,000 in cash and equipment should be sufficient to get them one year of runway. Of course, that was 3 months ago now, so they have 9 months of runway remaining.
 
 Delia's first job as CEO is to find them some money to get NewCo off the ground. Her first step was to get NewCo accepted into a top hardtech accelerator, [Alchemist Accelerator](https://www.alchemistaccelerator.com/) conveniently based in Chicago. At the end of the 7-week program, she will pitch as part of the accelerator's [Demo Days](https://www.alchemistaccelerator.com/alchemist-demo-days). It will be cutting it close, but the program will end with approximately 3 months of runway remaining.
 
