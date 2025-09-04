@@ -6,7 +6,7 @@
 
 | Learning Concepts | Learning Objectives |
 | ------ | -------- |
-Pro Forma Financial Statements | Explain the purpose and use of pro forma financial statements |
+| Pro Forma Financial Statements | Explain the purpose and use of pro forma financial statements |
 | Projected Financial Statements | Produce and Analyze projected financials for a 6 month, 1 year, and 3 year time horizon.|
 | Competitive Analysis | Explain the benefits and general processes for performing a robust market competition analysis|
 | Pitch Decks | Explain the purpose of a pitch deck and its synthesis of business models, market analyses, and financial projections.|
