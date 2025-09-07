@@ -28,6 +28,18 @@ Moreover, this first module introduces basic concepts in high-growth entrepreneu
 | Key license terms: exclusivity, field of use, term, royalties/milestones. | Differentiate between an IP license and an IP assignment and articulate the strategic advantages of each for both parties.|
 | Investor rights: pro-rata rights, information rights, board seats/observer rights. | Evaluate how investor diligence and control terms (e.g., board observation, reporting) affect a startup's operations.|
 
+### Term Sheet Analysis
+
+The large thrust of this module is digging into the nuts and bolts of a high-growth term sheet. Depending on the students there are a lot of approaches to take with this. If the audience is first-time entrepreneurs simply identifying the basic elements and the major points of tension are probably sufficient. For more advanced students, digging into term sheet math, the full consequences of anti-dilution, and the different effects of corporate governance levers might be appropriate.
+
+Valuation is always a big teaching moment. Many students enter into this case study not fully understanding how valuations are arrived at. Critically few realize that there isn't "a" valuation but rather a "who's asking and why" approach with valuation. They rarely have the insight or language to understand the information asymmetry present in these negotiations. Having the students think through how BigTech might approach valuation and the information they might have and then jumping to the other side and thinking about how NewCo might approach the valuation question is a valuable exercise in its own right.
+
+### Intellectual Property
+
+Similar to valuation, students often have little appreciation for the complexity of intellectual property development and ownership. When students see the IP terms in the term sheet, almost unanimously they jump to the conclusion that NewCo should take ownership rather than continue to license and initial redlines for negotiation often start with that premise. Not only is this approach unlikely to be fruitful for obvious reasons (BigTech is unlikely to simply give them the IP for a whole host of reasons), students rarely appreciate that NewCo may not actually _want_ to own the IP; they do not appreciate the cost of defending that IP in the context of potential infringement. And, especially in this industry where there are numerous big, established players, having BigTech owning the IP and responsible for its defense is a far stronger deterrent to potential infringement than NewCo's ownership of the IP.
+
+Secondly, students often place too much value on IP as it sits in an early stage. While this IP may be "foundational" for creating the business, the simple reality is that it is likely change _signficantly_ before the finished product hits a market. Thus, the IP in its current stage is likely very different from the IP just even a few years from now. Indeed, given the pace of innovation, it could be so wildly different as to be practically meaningless in the context of the future product. Thus, students spend a lot of time thinking about the IP they are getting, but thinking very little about the IP they are developing. A license that permits development and ownership of the derivative/new works might in fact be far more valuable than ownership and prosecution of a patent application that may be obsolete by the time it issues.
+
 ## Module 3: The Exercise
 
 | Learning Concepts | Learning Objectives |
