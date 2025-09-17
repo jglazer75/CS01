@@ -75,6 +75,20 @@ In the longer class session and outside negotiation, I will have students upload
 | Projected Financial Statements | Explain the purpose and use of projected financials |
 | Competitive Analysis | Explain the benefits and general processes for performing a robust market competition analysis|
 
+There are a variety of ways you can handle this module. The material covered is pretty standard corporate finance 101 kind of stuff. Much like the legal side of this case study, you can get as complicated as you want with it. 
+
+This exercise will really let you dive as much as you want into playing with the numbers and doing the kind of research that a startup would have to do to prepare this information. The limiting factor with the exercise is simply that you aren't given much hard data (lease rates, salaries, benefit packages, equipment costs, etc.) so students will need to get creative in developing that material (Module 5 is the financial statement exercise). This isn't that unusual from the research that the startup (NewCo) would have to do themselves. They might know what their immediate costs are, but they still need to go out and look at office space, ask a corporate real estate person about standard lease rates for what they are looking for, calculate that cost over their financing period, and the go out and raise that money.
+
+I think the key thing that this module focuses on that might be unusual is the sources and uses of funds statement. I started using this document in the non-profit context. But increasingly my work with startups has focused on the "capital stack" which is really just "corporate-speak" for Source and Uses of Funds.
+
+More importantly, the focus should be on the fact these don't need to be exact. At this stage, there is no quarterly annual report requirement that has to comply with SEC standards. So, students don't really need to learn that. But they should learn and be somewhat engaged with a balance sheet, but really understand the P&L and Cash Flow documents as they relate to investor metrics such as burn-rate, monthly recurring revenue, fixed costs, and cost of goods (or services) sold.
+
+Even more importantly students should understand financials in the _entrepreneurial_ context (as will be required in Module 5) to tell a story about the company. What is important and how is that represented in the financials? Which pieces of financial data are particularly important? etc.
+
+There are a lot of great resources available for this stuff. But the real hero is Prof. Aswath Damodaran at NYU's Stern School of Business. [He publishes all of his materials online](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm) and it is a trove of information about the basics of corporate finance and has all of the right information for this case study.
+
+Somewhat coincidentally, the NYU School of Law's Institute for Policy Integrity has [a powerpoint presentation looking at how to use financials to tell a story](https://policyintegrity.org/documents/1.2_Sanzillo_FinPerfIndicatorsFINAL_PDF_.pdf). There isn't much context around it, but I think the slides are pretty self-explanatory as to what is going on with the data to tell the story. I really like the slides on performance ratios. Plus, the deck also goes into really interesting detail about how to think about complex regulatory or industry environments. I would _not_ use this deck as a model for investor pitching, though :D
+
 ## Module 5: Pitch Competition
 
 | Learning Concepts | Learning Objectives |
@@ -83,3 +97,16 @@ In the longer class session and outside negotiation, I will have students upload
 | Projected Financial Statements | Produce and Analyze projected financials for a 6 month, 1 year, and 3 year time horizon.|
 | Pitch Decks | Explain the purpose of a pitch deck and its synthesis of business models, market analyses, and financial projections.|
 | Interpersonal Dynamics | Engage with others to show a facility and synthesis of the company as a whole within the framework of acquiring investment equity |
+
+### Shark Tank
+
+The end result of this exercise is built on an in-class exercise that we have done in the L&E Clinic for years and was one of the first in-class exercises I created as an educator. Students always have a lot of fun with it. In the original exercise, I assigned Shark Tank videos on YouTube for the students to watch, then students would adopt that product as their own and give a pitch. The other students acted as the "sharks" as they were each given $50,000 to "invest" in any of the other teams; they were required to invest all $50,000 to prevent students from just not investing. Like Shark Tank the "sharks" could ask questions at any time. At the end of the exercise we totalled up the amount that each shark invested and the team that came closest to their ask was named "the winner." Unfortunately, I had to end this competition when ABC/the owner of Shark Tank started methodically removing all of the "full pitch" videos from YouTube. Boo!
+
+This current exercise adopts the pitch and investor piece of the Shark Tank exercise, but increases the difficult substantially to be much more realistic for a startup just getting started. To properly prepare this pitch deck the startup needs to have a solid understanding of not just current financials (generally pretty straightforward), but projected financial (far less straightforward). They need to be able to justify to investors that the money invested will be well-spent (capital stack/sources and uses). They need to have solid understanding of their customer and of the current competitive environment. All of this data is hard to develop and present coherently.
+
+There are a few solutions to the difficulty of this exercise:
+**Least Difficulty**: simply adopt a more "shark tank" style approach. I'd recommend finding accelerator pitches on YouTube or wherever and assigning those to student teams.
+
+**Modest Difficulty**: provide all teams with a competitive analysis and some basic projected financials to work from. There is no reason why all teams can't start wtih the same data, so you would only need to create this once (or you could even have AI generate it for you; perhaps a future iteration of this case study I will do exactly that).
+
+**Most Difficulty**: The exercise as proposed. This should be a relatively straightforward financial/competitive analysis for anyone in the second year of an MBA program. Upper level undergrads could probably get through it if they have a background in finance and/or strategy and/or entrepreneurship. Any other audience will probably need some to significant help or classroom education before taking it on at this difficulty.

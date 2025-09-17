@@ -16,6 +16,8 @@ With this in mind, then, this Instructor's manual will be more general than if I
 
 Similarly, in the normal case I would provide you with powerpoints and lecture notes for teaching these concepts. But, given how broad this case study is, and the breadth of contexts where it might be used, that approach won't be terribly helpful. Thus, you will also find [Source Documents and Resources](./sourcedocs-and-resources.html) that might be helpful in developing your own materials and were used in the creation of this case study.
 
+The original case study and term sheet are also in the source-documents folder if you want to just run the base case study exercise.
+
 # A Note on AI
 
 Finally, I fully expect students and teachers to use AI in the course of this case study. The modern practice of business and law uses AI, so it would be ridiculous to create a case study that did not assume its use. Moreover, I hope by explicitly including AI compenents, students and entrepreneurs will get a sense of the scope, scale, capabilities, and limitations of AI in making these kinds of legal and business decisions. As a teacher and leader of this case study, you should engage the students and entrepreneurs to think deeply about their use of AI in this case study. What was it good at? What was it not good at? Where were humans better? Where were we worse? What was unexpected about it? etc.

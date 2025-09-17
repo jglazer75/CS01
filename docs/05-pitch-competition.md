@@ -55,4 +55,6 @@ Education Accelerators tend not to take equity in cohort companies. They often w
 
 Everybody does pitches a little differently. You can find a lot of pitches online to look at for inspiration. Typically, this case study is performed in a classroom setting. In prior modules groups have been divided into teams of 2-4 students. Ideally, that is the case here, though I will note that traditionally the pitch would be done by only one person on the team; while multi-person pitches are permitted and possible (and REALLY fun when done well), they can be REALLY hard to pull off well and are not recommended. Each team should pitch for 10-15 minutes.
 
-While each team pitches, the remainder of the class are not static viewers. As each team pitches, the rest of the class instead turns into investors and after the pitch, will engage in 5-10 minutes of question and answer related to an investment decision.
+While each team pitches, the remainder of the class are not static viewers. As each team pitches, the rest of the class instead turns into investors and after the pitch, will engage in 5-10 minutes of question and answer related to an investment decision. 
+
+For an extra level of engagement and pitch difficulty the "investors" are allowed to ask questions during the presentation. This might happen in a "private" pitch in front of angel investors, while the uninterrupted pitch with investor Q&A after is more typical of an accelerator pitch day.
