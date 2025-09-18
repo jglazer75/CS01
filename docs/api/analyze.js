@@ -49,8 +49,8 @@ module.exports = async (req, res) => {
         const termSheetText = await getFileText(fileBuffer, fileType);
 
         // 3. Read context files
-        const foundationsPath = path.resolve(process.cwd(), '01-foundations.md');
-        const theDealPath = path.resolve(process.cwd(), '02-the-deal.md');
+        const foundationsPath = path.join(__dirname, '..', '01-foundations.md');
+        const theDealPath = path.join(__dirname, '..', '02-the-deal.md');
 
         const foundationsText = await fs.readFile(foundationsPath, 'utf-8');
         const theDealText = await fs.readFile(theDealPath, 'utf-8');
