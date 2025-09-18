@@ -73,7 +73,7 @@ Upload your redlined term sheet (.docx or .pdf) to receive an AI-powered analysi
   </div>
 </div>
 
-<script src="/assets/js/term-sheet-analyzer.js"></script>
+<script src="{{ '/assets/js/term-sheet-analyzer.js' | relative_url }}"></script>
 
 ## Part 2 - Face Off {#pt2-face-off}
 
