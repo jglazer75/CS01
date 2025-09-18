@@ -56,6 +56,25 @@ Each group should take 40 minutes to discuss the Term Sheet and, in your role fo
 
 You should reference [the term sheet found in Module 2](./02-the-deal.md) and you may find the [capitalization table in Module 1](./01-foundations.md) helpful.
 
+## AI Term Sheet Analysis
+
+Upload your redlined term sheet (.docx or .pdf) to receive an AI-powered analysis and negotiation suggestions.
+
+<div id="term-sheet-analyzer">
+  <form id="upload-form">
+    <input type="file" id="term-sheet-file" accept=".docx,.pdf">
+    <button type="submit">Submit for Analysis</button>
+  </form>
+  <div id="analysis-result" style="display:none;">
+    <h3>Analysis Results:</h3>
+    <div id="loading-indicator">Analyzing...</div>
+    <div id="error-message" style="color:red;"></div>
+    <pre id="analysis-output"></pre>
+  </div>
+</div>
+
+<script src="/assets/js/term-sheet-analyzer.js"></script>
+
 ## Part 2 - Face Off {#pt2-face-off}
 
 Once you have marked up the Term Sheet, it is sent to BigTech and their lawyers. Their lawyers have responded and would like to set up a time to talk through your suggestions. 

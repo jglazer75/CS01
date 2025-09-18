@@ -1,0 +1,18 @@
+{
+  "name": "term-sheet-analysis-api",
+  "version": "1.0.0",
+  "description": "API for analyzing term sheets.",
+  "main": "analyze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "mammoth": "^1.6.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
