@@ -48,18 +48,14 @@ module.exports = async (req, res) => {
         // 2. Extract text from the document
         const termSheetText = await getFileText(fileBuffer, fileType);
 
-        // 3. Read context files
-        const foundationsPath = path.join(__dirname, '..', '01-foundations.md');
-        const theDealPath = path.join(__dirname, '..', '02-the-deal.md');
-
-        const foundationsText = await fs.readFile(foundationsPath, 'utf-8');
-        const theDealText = await fs.readFile(theDealPath, 'utf-8');
+        // 3. Read context file
+        const contextPath = path.join(__dirname, 'context.json');
+        const contextText = await fs.readFile(contextPath, 'utf-8');
 
         // 4. Construct the prompt for Gemini
         const prompt = `
             **Case Study Context:**
-            ${foundationsText}
-            ${theDealText}
+            ${contextText}
 
             **User's Term Sheet:**
             ${termSheetText}
