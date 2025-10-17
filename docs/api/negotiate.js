@@ -101,7 +101,7 @@ async function extractTextFromFile({ filepath, mimetype }) {
 // --- Action: Create a new negotiation session ---
 async function createNegotiation(req, res, { fields, files }) {
   const userRole = fields.userRole?.[0];
-  const termSheetFile = files.termSheetFile?.[0];
+  const termSheetFile = files['dealcraft-term-sheet-file']?.[0];
 
   if (!userRole || !termSheetFile) {
     return res.status(400).json({ error: 'userRole and termSheetFile are required.' });
