@@ -145,6 +145,7 @@ async function createNegotiation(req, res, { fields, files }) {
 
 // --- Action: Handle a user's message ---
 async function handleMessage(req, res, { sessionId, message }) {
+  console.log(`handleMessage called for session: ${sessionId}`);
   // This function is now called after manual JSON parsing if content-type is correct
   if (!sessionId || !message) {
     return res.status(400).json({ error: 'sessionId and message are required.' });
@@ -185,8 +186,14 @@ async function handleMessage(req, res, { sessionId, message }) {
 
   // 3. Call the Gemini API
   try {
+    if (!process.env.GEMINI_API_KEY) {
+      console.error('GEMINI_API_KEY is not set.');
+      return res.status(500).json({ error: 'Server configuration error: Missing API key.' });
+    }
+    console.log('Calling Gemini API...');
     const result = await model.generateContent(prompt);
     const aiResponse = result.response.text();
+    console.log('Gemini API call successful.');
 
     // 4. Update Session State
     const newHistory = [
