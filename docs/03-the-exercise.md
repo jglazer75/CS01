@@ -117,7 +117,7 @@ Engage in a simulated negotiation with an AI opponent. Paste your term sheet, ch
   <!-- Setup View -->
   <div id="dealcraft-setup">
     <h3>1. Upload Your Redlined Term Sheet</h3>
-    <input type="file" id="dealcraft-term-sheet-file" accept=".docx,.pdf">
+    <input type="file" id="dealcraft-term-sheet-file" name="termSheetFile" accept=".docx,.pdf">
     
     <h3>2. Choose Your Role</h3>
     <div class="roles">
