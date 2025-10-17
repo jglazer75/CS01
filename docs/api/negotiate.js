@@ -12,7 +12,7 @@ import negotiationContext from './negotiation-context.json';
 // --- Initialize API Clients ---
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 // --- Vercel-specific config to disable body parsing ---
 export const config = {
