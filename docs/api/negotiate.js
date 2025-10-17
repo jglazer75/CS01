@@ -100,21 +100,26 @@ async function extractTextFromFile({ filepath, mimetype }) {
 
 // --- Action: Create a new negotiation session ---
 async function createNegotiation(req, res, { fields, files }) {
-  const userRole = fields.userRole?.[0];
-  const termSheetFile = files.termSheetFile?.[0];
-
-  if (!userRole || !termSheetFile) {
-    return res.status(400).json({ error: 'userRole and termSheetFile are required.' });
-  }
-  if (userRole !== 'NewCo' && userRole !== 'BigTech') {
-    return res.status(400).json({ error: 'Invalid userRole. Must be "NewCo" or "BigTech".' });
-  }
-
   try {
+    const userRole = fields.userRole?.[0];
+    const termSheetFile = files.termSheetFile?.[0];
+
+    // For debugging Vercel logs
+    console.log('Received fields:', fields);
+    console.log('Received files:', files);
+    console.log('Selected termSheetFile:', termSheetFile);
+
+    if (!userRole || !termSheetFile) {
+      return res.status(400).json({ error: 'userRole and termSheetFile are required.' });
+    }
+    if (userRole !== 'NewCo' && userRole !== 'BigTech') {
+      return res.status(400).json({ error: 'Invalid userRole. Must be "NewCo" or "BigTech".' });
+    }
+
     const termSheetText = await extractTextFromFile(termSheetFile);
     const aiRole = userRole === 'NewCo' ? 'BigTech' : 'NewCo';
 
-    const { data, error } = await supabase
+    const { data, error: supabaseError } = await supabase
       .from('negotiations')
       .insert([{
         user_role: userRole,
@@ -126,15 +131,15 @@ async function createNegotiation(req, res, { fields, files }) {
       .select('id')
       .single();
 
-    if (error) {
-      console.error('Supabase insert error:', error);
-      return res.status(500).json({ error: 'Failed to create negotiation session.' });
+    if (supabaseError) {
+      console.error('Supabase insert error:', supabaseError);
+      return res.status(500).json({ error: 'Failed to create negotiation session in database.' });
     }
 
     return res.status(201).json({ sessionId: data.id });
-  } catch (extractError) {
-    console.error("Error extracting text from file:", extractError);
-    return res.status(400).json({ error: extractError.message });
+  } catch (error) {
+    console.error("Error in createNegotiation:", error);
+    return res.status(500).json({ error: 'Failed to process the request.', details: error.message });
   }
 }
 

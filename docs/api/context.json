@@ -1,39 +1,38 @@
-
-### Case Study Context Summary
-
-**Parties:**
-*   **NewCo Tech Company, Inc. ("NewCo"):** A Madison, WI startup founded by Baker (CEO) and Carter (CTO), two ex-employees of BigTech. They are developing "NETWORKFUNCTION," a software-based routing system for faster internet streaming.
-*   **BigTechCo, Inc. ("BigTech"):** A Fortune 100 hardware tech company and former employer of NewCo's founders. BigTech owns the core intellectual property for NETWORKFUNCTION.
-
-**Core Situation:**
-BigTech has spun-off the NETWORKFUNCTION technology into NewCo. NewCo is now negotiating a term sheet with BigTech to license the core IP and secure initial investment.
-
-**NewCo's Status:**
-*   **Founders:** Baker (550,000 shares), Carter (450,000 shares). Shares vest over 4 years with a 1-year cliff.
-*   **Needs:** Funding to hire 3-5 engineers and 1 marketing officer.
-*   **Initial Capitalization:** Founders contributed $50,000 for rent and equipment. An employee option pool of 100,000 shares is planned.
-
-**BigTech's Core IP:**
-*   **P294:** Patent for firmware implementation.
-*   **P573:** Patent for cloud architecture.
-*   **C483:** Copyright for the control software.
-*   **Ownership:** BigTech owns all this IP, as it was created by Baker and Carter during their employment.
-
-**The Proposed Term Sheet (BigTech's Offer to NewCo):**
-*   **Grant:** Exclusive license to the Core IP in the "Networking" field for the life of the patents.
-*   **Equity:** BigTech gets a 15% equity stake in NewCo. This 15% ownership is protected by an anti-dilution provision until NewCo raises at least $2.0M in a subsequent financing round.
-*   **Milestone Fee:** A one-time 2% payment on sales for any year where sales reach $10M.
-*   **Patent Costs:** NewCo must pay for all future patent costs. Past costs ($19,971) are waived.
-*   **Diligence/Control:**
-    *   BigTech has the option to be a Board Observer.
-    *   NewCo must provide regular business plans, financial statements, and development reports.
-    *   First commercial sale must be achieved by May 1, 2019.
-    *   If development stalls for 1 year, the license becomes non-exclusive.
-*   **Future Offerings:** BigTech has pro-rata rights (a preemptive right) to maintain its ownership percentage in future funding rounds. If they participate in the Series A round, they get an option for a board seat.
-
-**Key Negotiation Concepts:**
-*   **Valuation:** The term sheet implies a valuation but doesn't state one explicitly. The equity grant is a key point.
-*   **Control:** BigTech is asking for significant oversight (Board Observer, reporting) and future rights (pro-rata, board seat option).
-*   **Economics:** The deal involves equity, a milestone fee, and cost-shifting for patents.
-*   **Anti-Dilution:** This is a critical term, protecting BigTech's initial 15% stake from being diluted by early, small funding rounds, but not from a major Series A round (>$2M).
-*   **IP License vs. Assignment:** NewCo is getting a license (right to use), not an assignment (ownership) of the IP. The terms of this license (exclusivity, field of use) are central to the deal.
+{
+  "caseStudyContext": {
+    "parties": [
+      {
+        "name": "NewCo Tech Company, Inc. ('NewCo')",
+        "description": "A Madison, WI startup founded by Baker (CEO) and Carter (CTO), two ex-employees of BigTech. They are developing 'NETWORKFUNCTION,' a software-based routing system for faster internet streaming."
+      },
+      {
+        "name": "BigTechCo, Inc. ('BigTech')",
+        "description": "A Fortune 100 hardware tech company and former employer of NewCo's founders. BigTech owns the core intellectual property for NETWORKFUNCTION."
+      }
+    ],
+    "coreSituation": "BigTech has spun-off the NETWORKFUNCTION technology into NewCo. NewCo is now negotiating a term sheet with BigTech to license the core IP and secure initial investment.",
+    "newCoStatus": {
+      "founders": "Baker (550,000 shares), Carter (450,000 shares). Shares vest over 4 years with a 1-year cliff.",
+      "needs": "Funding to hire 3-5 engineers and 1 marketing officer.",
+      "initialCapitalization": "Founders contributed $50,000 for rent and equipment. An employee option pool of 100,000 shares is planned."
+    },
+    "bigTechCoreIP": [
+      { "id": "P294", "type": "Patent", "description": "Firmware implementation." },
+      { "id": "P573", "type": "Patent", "description": "Cloud architecture." },
+      { "id": "C483", "type": "Copyright", "description": "Control software." }
+    ],
+    "proposedTermSheet": {
+      "grant": "Exclusive license to the Core IP in the 'Networking' field for the life of the patents.",
+      "equity": "BigTech gets a 15% equity stake in NewCo. This 15% ownership is protected by an anti-dilution provision until NewCo raises at least $2.0M in a subsequent financing round.",
+      "milestoneFee": "A one-time 2% payment on sales for any year where sales reach $10M.",
+      "patentCosts": "NewCo must pay for all future patent costs. Past costs ($19,971) are waived.",
+      "diligenceAndControl": [
+        "BigTech has the option to be a Board Observer.",
+        "NewCo must provide regular business plans, financial statements, and development reports.",
+        "First commercial sale must be achieved by May 1, 2019.",
+        "If development stalls for 1 year, the license becomes non-exclusive."
+      ],
+      "futureOfferings": "BigTech has pro-rata rights (a preemptive right) to maintain its ownership percentage in future funding rounds. If they participate in the Series A round, they get an option for a board seat."
+    }
+  }
+}
