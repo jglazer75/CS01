@@ -28,59 +28,46 @@ export default async function handler(req, res) {
     return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
-  // We need to parse the form data to get the 'action'
-  const form = formidable({});
-  form.parse(req, async (err, fields, files) => {
-    if (err) {
-      console.error('Form parsing error:', err);
-      return res.status(500).json({ error: 'Failed to parse form data.' });
-    }
-    
-    const action = fields.action?.[0];
+  const contentType = req.headers['content-type'] || '';
 
-    try {
-      switch (action) {
-        case 'create':
-          return await createNegotiation(req, res, { fields, files });
-        case 'send_message':
-          // For send_message, the body is JSON, so we need to handle it differently.
-          // This part requires a re-architecture as Vercel's body parser is disabled.
-          // A simple approach is to re-enable it for specific actions or parse JSON manually.
-          // For this MVP, we'll assume JSON body can be parsed from fields if sent via form-data,
-          // or we need a separate endpoint. Let's adjust the client to send send_message as JSON.
-          // The correct fix is to have two endpoints or a more complex handler.
-          // Let's assume the client sends JSON for send_message and we re-parse it here.
-          // A better fix is to re-read the raw body if action is 'send_message'.
-          // This implementation will be simplified to handle JSON body passed through formidable.
-          const body = JSON.parse(fields.body); // A workaround
-          return await handleMessage(req, res, body);
-        default:
-          // If action is not 'create', we assume it's a JSON request for 'send_message'
-          // This requires the client to send JSON for 'send_message'
-          if (req.headers['content-type']?.includes('application/json')) {
-              let jsonBody = '';
-              req.on('data', chunk => { jsonBody += chunk.toString(); });
-              req.on('end', async () => {
-                  try {
-                      const parsedBody = JSON.parse(jsonBody);
-                      if (parsedBody.action === 'send_message') {
-                          await handleMessage(req, res, parsedBody);
-                      } else {
-                          res.status(400).json({ error: 'Invalid action in JSON body.' });
-                      }
-                  } catch (jsonError) {
-                      res.status(400).json({ error: 'Invalid JSON body.' });
-                  }
-              });
-          } else {
-               res.status(400).json({ error: 'Invalid action or content type.' });
-          }
+  try {
+    if (contentType.includes('application/json')) {
+      // Handle JSON body for 'send_message'
+      let body = '';
+      for await (const chunk of req) {
+        body += chunk;
       }
-    } catch (err) {
-      console.error('Server error:', err);
-      return res.status(500).json({ error: 'An unexpected error occurred.' });
+      const { action, ...data } = JSON.parse(body);
+
+      if (action === 'send_message') {
+        return await handleMessage(req, res, data);
+      } else {
+        return res.status(400).json({ error: 'Invalid action for JSON request.' });
+      }
+    } else if (contentType.includes('multipart/form-data')) {
+      // Handle form-data for 'create'
+      const form = formidable({});
+      const { fields, files } = await new Promise((resolve, reject) => {
+        form.parse(req, (err, fields, files) => {
+          if (err) return reject(err);
+          resolve({ fields, files });
+        });
+      });
+      
+      const action = fields.action?.[0];
+
+      if (action === 'create') {
+        return await createNegotiation(req, res, { fields, files });
+      } else {
+        return res.status(400).json({ error: 'Invalid action for form-data request.' });
+      }
+    } else {
+      return res.status(415).json({ error: `Unsupported content-type: ${contentType}` });
     }
-  });
+  } catch (err) {
+    console.error('Server error:', err);
+    return res.status(500).json({ error: 'An unexpected error occurred.', details: err.message });
+  }
 }
 
 
