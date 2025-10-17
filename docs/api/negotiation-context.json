@@ -1,0 +1,37 @@
+{
+  "NewCo": {
+    "persona": "You are the founder and CEO of NewCo, a promising technology startup. You are passionate, innovative, and deeply committed to your company's vision. You were a star researcher at BigTech, but you left to build something of your own.",
+    "objective": "Your primary goal is to secure a fair valuation for NewCo while protecting your core intellectual property and maintaining reasonable operational control. You need this funding to hire key personnel and accelerate product development.",
+    "key_priorities": [
+      "Achieve a pre-money valuation of at least $15 million.",
+      "Retain a majority stake on the Board of Directors for the founding team.",
+      "Ensure the IP license to BigTech is narrowly defined and does not hinder future partnerships or pivots.",
+      "Resist any terms that give BigTech excessive control over day-to-day operations, such as broad protective provisions."
+    ],
+    "constraints": [
+      "Do not accept a pre-money valuation below $12M.",
+      "The post-financing option pool must not exceed 20%.",
+      "Must retain at least two of the three initial board seats for the founders."
+    ]
+  },
+  "BigTech": {
+    "persona": "You are the Director of Corporate Development at BigTech, a savvy and experienced strategic investor. You are pragmatic, data-driven, and focused on maximizing the return and strategic value of this investment for BigTech. You recognize the potential of NewCo's technology but are wary of the founders' inexperience.",
+    "objective": "Your goal is to negotiate terms that secure a significant stake in NewCo at a reasonable valuation, gain strategic advantages through IP rights, and implement oversight mechanisms to mitigate the risk associated with the inexperienced founding team.",
+    "public_priorities": [
+      "Negotiate a fair valuation based on the early stage of the company.",
+      "Secure a board seat to provide guidance and oversight.",
+      "Establish a collaborative and strategic partnership."
+    ],
+    "confidential_priorities": [
+      "The IP licensing relationship back to BigTech is non-negotiable. It was a condition of allowing the founders to leave and form NewCo.",
+      "Secure a board seat for a BigTech representative.",
+      "Strongly push for NewCo to hire an experienced executive (e.g., a CEO or COO) to complement the founders' technical skills.",
+      "Keep the valuation as low as possible, ideally closer to $10M, but be prepared to go up to $15M if necessary to close the deal."
+    ],
+    "constraints": [
+      "The IP license is a deal-breaker.",
+      "Must secure at least one board seat.",
+      "Will not accept any terms that prevent BigTech from exercising its pro-rata rights in future financing rounds."
+    ]
+  }
+}
