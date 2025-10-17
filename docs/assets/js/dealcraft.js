@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Setup View
   const setupView = document.getElementById('dealcraft-setup');
-  const termSheetInput = document.getElementById('term-sheet-input');
   const startButton = document.getElementById('start-negotiation-btn');
   
   // Chat View
@@ -34,8 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
    * Starts a new negotiation session.
    */
   async function startNegotiation() {
-    const termSheetFile = document.getElementById('term-sheet-file').files[0];
-    const userRole = document.querySelector('input[name="userRole"]:checked')?.value;
+    const setupContainer = document.getElementById('dealcraft-setup');
+    const termSheetFile = setupContainer.querySelector('#dealcraft-term-sheet-file').files[0];
+    const userRole = setupContainer.querySelector('input[name="userRole"]:checked')?.value;
 
     if (!termSheetFile || !userRole) {
       alert('Please select a term sheet file and choose your role.');

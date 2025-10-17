@@ -179,26 +179,31 @@ async function handleMessage(req, res, { sessionId, message }) {
   `;
 
   // 3. Call the Gemini API
-  const result = await model.generateContent(prompt);
-  const aiResponse = result.response.text();
+  try {
+    const result = await model.generateContent(prompt);
+    const aiResponse = result.response.text();
 
-  // 4. Update Session State
-  const newHistory = [
-    ...(history || []),
-    { speaker: 'user', content: message },
-    { speaker: 'ai', content: aiResponse },
-  ];
+    // 4. Update Session State
+    const newHistory = [
+      ...(history || []),
+      { speaker: 'user', content: message },
+      { speaker: 'ai', content: aiResponse },
+    ];
 
-  const { error: updateError } = await supabase
-    .from('negotiations')
-    .update({ history: newHistory })
-    .eq('id', sessionId);
+    const { error: updateError } = await supabase
+      .from('negotiations')
+      .update({ history: newHistory })
+      .eq('id', sessionId);
 
-  if (updateError) {
-    console.error('Supabase update error:', updateError);
-    return res.status(500).json({ error: 'Failed to update negotiation session.' });
+    if (updateError) {
+      console.error('Supabase update error:', updateError);
+      return res.status(500).json({ error: 'Failed to update negotiation session.' });
+    }
+
+    // 5. Return Response
+    return res.status(200).json({ aiResponse });
+  } catch (aiError) {
+    console.error('Gemini API error:', aiError);
+    return res.status(500).json({ error: 'Failed to get a response from the AI model.' });
   }
-
-  // 5. Return Response
-  return res.status(200).json({ aiResponse });
 }
