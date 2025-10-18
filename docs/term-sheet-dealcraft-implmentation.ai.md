@@ -1,4 +1,4 @@
-### Phase 1: Core Backend & Text-Based MVP
+### Phase 1: Core Backend & Text-Based MVP (Completed)
 
 **Goal:** Establish the foundational architecture and a working text-only negotiation loop.
 

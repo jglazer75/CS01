@@ -28,6 +28,15 @@ The analyzer consists of:
 *   A serverless backend function in `api/analyze.js` that handles the analysis.
 *   Supabase for file storage.
 
+## DealCraft AI Negotiation
+
+This project also includes a simulated negotiation exercise called DealCraft. Users can upload their term sheet, choose a role (NewCo or BigTech), and negotiate with an AI opponent to get the best deal for their side.
+
+The DealCraft feature consists of:
+*   A frontend chat interface in `03-the-exercise.md`, powered by `assets/js/dealcraft.js`.
+*   A serverless backend function in `api/negotiate.js` that manages the negotiation session and generates AI responses using the Gemini API.
+*   Supabase for storing negotiation history and session data.
+
 ## Deployment
 
 The live version of this project, including the Term Sheet Analyzer, is deployed on Vercel and can be accessed at:
